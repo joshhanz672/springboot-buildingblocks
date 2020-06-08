@@ -21,20 +21,22 @@ public class UserMapStructController {
 	@Autowired
 	private UserRepository userRepository;
 
-	@Autowired
-	private UserMapper userMapper;
+	//@Autowired
+	//private UserMapper userMapper;
 	
-	@GetMapping
-	public List<UserMsDto> getAllUserDtos() {
-		return userMapper.usersToUserDtos(userRepository.findAll());
-	}
+	//@GetMapping
+	//public List<UserMsDto> getAllUserDtos() {
+		//return userMapper.usersToUserDtos(userRepository.findAll());
+	//}
 	
+	/*
 	@GetMapping("/{id}")
 	public UserMsDto getUserById(@PathVariable Long id) {
 		Optional<User> userOptional = userRepository.findById(id);
 		User user = userOptional.get();
 		return userMapper.userToUserMsDto(user);
-	}
+		
+	}*/
 	
 	
 	

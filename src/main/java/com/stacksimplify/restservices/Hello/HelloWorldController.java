@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 	
+	/*
+	
 	@Autowired
 	private ResourceBundleMessageSource messageSource;
 
@@ -43,5 +45,6 @@ public class HelloWorldController {
 		return messageSource.getMessage("label.hello", null, LocaleContextHolder.getLocale());
 		
 	}
+	*/
 	
 }
